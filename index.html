@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CivicConnect - Report & Resolve Community Issues</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-building"></i> CivicConnect
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="report.html">Report Issue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="issues.html">View Issues</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="row min-vh-100 align-items-center">
+                    <div class="col-lg-8 mx-auto text-center text-white">
+                        <h1 class="display-3 fw-bold mb-4">Report & Resolve Community Issues</h1>
+                        <p class="lead mb-5">Help make our community better by reporting problems and tracking their resolution. Together, we can build a stronger, more connected neighborhood.</p>
+                        <a href="report.html" class="btn btn-primary btn-lg px-5 py-3">
+                            <i class="bi bi-plus-circle me-2"></i>Report an Issue
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sample Issues Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold text-primary">Recent Community Issues</h2>
+                    <p class="lead text-muted">See what issues have been reported and their current status</p>
+                </div>
+            </div>
+            <div class="row" id="sampleIssues">
+                <!-- Sample issues will be dynamically loaded here -->
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <a href="issues.html" class="btn btn-outline-primary btn-lg">
+                        <i class="bi bi-eye me-2"></i>View All Issues
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold text-primary">How It Works</h2>
+                    <p class="lead text-muted">Simple steps to make a difference in your community</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <div class="feature-card p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-camera text-primary display-4"></i>
+                        </div>
+                        <h4>1. Report</h4>
+                        <p class="text-muted">Take a photo and describe the issue you've found in your community.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-card p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-gear text-primary display-4"></i>
+                        </div>
+                        <h4>2. Track</h4>
+                        <p class="text-muted">Monitor the progress of your reported issues and see updates in real-time.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-card p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-check-circle text-primary display-4"></i>
+                        </div>
+                        <h4>3. Resolve</h4>
+                        <p class="text-muted">Watch as your community issues get resolved and your neighborhood improves.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-3">
+                        <i class="bi bi-building"></i> CivicConnect
+                    </h5>
+                    <p class="text-muted">Empowering communities to report and resolve local issues together. Building stronger neighborhoods, one report at a time.</p>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="report.html" class="text-muted text-decoration-none">Report Issue</a></li>
+                        <li><a href="issues.html" class="text-muted text-decoration-none">View Issues</a></li>
+                        <li><a href="about.html" class="text-muted text-decoration-none">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6 class="mb-3">Contact Info</h6>
+                    <ul class="list-unstyled text-muted">
+                        <li><i class="bi bi-envelope me-2"></i>info@civicconnect.com</li>
+                        <li><i class="bi bi-telephone me-2"></i>(555) 123-4567</li>
+                        <li><i class="bi bi-geo-alt me-2"></i>123 Community St, City</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="mb-3">Follow Us</h6>
+                    <div class="social-links">
+                        <a href="#" class="text-muted me-3"><i class="bi bi-facebook fs-5"></i></a>
+                        <a href="#" class="text-muted me-3"><i class="bi bi-twitter fs-5"></i></a>
+                        <a href="#" class="text-muted me-3"><i class="bi bi-instagram fs-5"></i></a>
+                        <a href="#" class="text-muted"><i class="bi bi-linkedin fs-5"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="text-muted mb-0">&copy; 2024 CivicConnect. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
